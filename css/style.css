@@ -46,7 +46,7 @@ body {
   position: relative;
   width: 158px;
   height: 158px;
-  margin: 30px auto 0;
+  margin: 20px auto 0;
   overflow: visible;
 }
 .logo *{
@@ -75,8 +75,8 @@ body {
 
 .logo img:nth-of-type(2) {
   z-index: 3; /* Изображение на переднем плане */
-  width: 178px;
-  top: 60%;
+  width: 220px;
+  top: 55%;
 }
 
 h1 {
@@ -106,7 +106,7 @@ h4 {
   font-weight: 500;
   font-size: 20px;
   text-align: center;
-  margin: 30px 0 20px;
+  margin: 26px 0 18px;
 }
 .flex {
   display: flex;
@@ -124,7 +124,7 @@ h4 {
   gap: 10px;
   border-radius: 12px;
   box-shadow: 0px 10px 20px 0pxrgba(100, 100, 100, 0.20) inset;
-  margin: 20px auto 40px;
+  margin: 16px auto 28px;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
 }
 .sub{
@@ -233,8 +233,10 @@ button {
   display: none;
 }
 .notification {
+  text-align: center;
+  width: 180px;
   position: fixed;
-  bottom: 20px;
+  bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
   background-color: #e4e8ff;
@@ -242,7 +244,7 @@ button {
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 14px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.2s ease, visibility 0.2s ease;
