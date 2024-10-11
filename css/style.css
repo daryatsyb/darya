@@ -174,9 +174,7 @@ p {
   color: #5E78FF;
 }
 .accordion-head_active {
-  height: 320px;
-  color: white;
-
+  
 }
 .accordion-content {
   margin-top: -4px;
