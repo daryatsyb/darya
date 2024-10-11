@@ -104,9 +104,9 @@ h3 {
 }
 h4 {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
-  margin: 26px 0 18px;
+  margin: 20px 0 16px;
 }
 .flex {
   display: flex;
@@ -152,6 +152,42 @@ p {
   margin: 12px 0;
   display: block;
   text-align: center;
+}
+.accordion {
+  margin: 0 auto;
+  padding: 0 40px;
+	width: 240px;
+	min-height: 50px;
+	border: 2px solid #5E78FF;
+	border-radius: 12px;
+	cursor: pointer;
+}
+.accordion-active {
+  background-color: #d6e7d2
+}
+.accordion-head {
+  height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  font-weight: 600;
+  color: #5E78FF;
+}
+.accordion-head_active {
+  height: 320px;
+  color: white;
+
+}
+.accordion-content {
+  margin-top: -4px;
+	overflow: hidden;
+	display: none;
+	-webkit-transition: .5s max-height;
+	transition: .5s max-height
+}
+.accordion-content_active {
+  overflow: visible;
+  display: block;
 }
 
 .cart {
